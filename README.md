@@ -26,15 +26,18 @@ amount=1000 then automatically redirected to the “customerhome.jsp”.
 • User can view list of transaction ordered in “transactions.jsp”.
 • User can make Transfer transaction in the page “transactions.jsp” as well to existing account
 number as follows:
+
 ✓ User enter account number to transfer to and amount to be transferred.
 ✓ Confirmation message will be displayed after transaction is done successfully
 ✓ The transfer amount will be deducted from the account balance and added to the
 other account balance
 
 • User can cancel Transfer transaction with the following scenario:
+
 ✓ User select one transaction from list of transaction
 
 • System redirect to a page that check if this transaction is only 1 day old or not
+
 ✓ if this transaction is 1 day old it passes: system allow user to confirm cancel
  and the balance is deducted from the account back to the original account
 ✓ else transaction is rejected: system does not allow user to confirm cancel
