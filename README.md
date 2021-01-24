@@ -18,9 +18,11 @@ Account”, consequently redirect Servlet called “addaccount”. On the other 
 existed this button must be impressed. 
 
 • If account exists for the logged in customer System View User Account Current Balance
+
 • Once the customer pressed the button “Add Account” and was redirected to servlet called
 “addaccount”. The system generates a random Account Number for the customer with initial
 amount=1000 then automatically redirected to the “customerhome.jsp”.
+
 • User can view list of transaction ordered in “transactions.jsp”.
 • User can make Transfer transaction in the page “transactions.jsp” as well to existing account
 number as follows:
@@ -28,8 +30,10 @@ number as follows:
 ✓ Confirmation message will be displayed after transaction is done successfully
 ✓ The transfer amount will be deducted from the account balance and added to the
 other account balance
+
 • User can cancel Transfer transaction with the following scenario:
 ✓ User select one transaction from list of transaction
+
 • System redirect to a page that check if this transaction is only 1 day old or not
 ✓ if this transaction is 1 day old it passes: system allow user to confirm cancel
  and the balance is deducted from the account back to the original account
