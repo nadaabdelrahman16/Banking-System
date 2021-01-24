@@ -4,16 +4,19 @@ Banking System Internal Transfer Transaction Management
 application has 4 pages as following
 
 • Login.HTML where customer enter his/her ID and password to login
+
 • Once the customer pressed login button, the servlet page called “validate” is fired. In this
 page you have to connect to the database and check whether the entered ID and password
 exist in customer table or not. If those ID and password existed declare a session to store that
 parameters (ID) in it, then redirect to the third page “customerhome.jsp”. On the other hand,
 if those ID and password didn’t exist redirect back to login.HTML.
+
 • In “customerhome.jsp” you have to check whether the logged in customer had bank accounts
 or not view the logged in customer account balance –by checking if he/she exists in
 “BankAccount “table or not- If s/he didn’t exist you have to allow him press button “Add
 Account”, consequently redirect Servlet called “addaccount”. On the other hand, if he was
 existed this button must be impressed. 
+
 • If account exists for the logged in customer System View User Account Current Balance
 • Once the customer pressed the button “Add Account” and was redirected to servlet called
 “addaccount”. The system generates a random Account Number for the customer with initial
