@@ -1,0 +1,57 @@
+/*
+ Name :Nada Abdelrahman Mabrouk Soukr
+    ID :20170315
+    Group : DS-IS 1
+*/
+/* 
+    Created on : Dec 21, 2020, 10:40:39 PM
+    Author     : Nada abdelrahman
+*/
+
+
+body{
+                background-image: url(bg.jpg);
+                background-size: cover;
+            }
+form{
+   
+    margin: 70px auto;
+    width: 400px;
+    size: 19px;
+    font-size: 120%;
+    padding-bottom: 70px;
+ 
+  
+}
+input[type=text] {
+   width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+ 
+}
+input[type=password] {
+   width: 100%;
+  padding: 12px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+ 
+}
+button{
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+    font-style: italic;
+   text-align: center;
+       
+}
+h2{
+    font-size: 30px;
+    font-style: italic;
+   text-align: center;
+   margin-bottom: 30px;
+       
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+Name :Nada Abdelrahman Mabrouk Soukr
+ID :20170315
+Group : DS-IS 1
+-->
+<html>
+    <head>
+        <title>Banking System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mystyle.css">
+        
+        
+<script type="text/javascript">
+function dil(form)
+{
+   for(var i=0; i<(form.elements.length-1); i++)
+   {
+		if(form.elements[i].value === "")
+		{
+		   alert("Fill out all Fields");
+		   document.F1.ID.focus();
+		   return false;
+		}
+   }
+    if(isNaN(document.F1.ID.value))
+   {
+       alert("Account ID must  be  number & can't be null")
+	   document.F1.ID.value="";
+	   document.F1.ID.focus();
+	   return false;
+   }
+
+   return true;
+}
+</script>
+
+    </head>
+    
+  
+    <body>
+<br>
+<h1>Welcome to our Bank system</h1>
+<h2>sign in to your account</h2>
+<br>
+<form name="F1"  onSubmit="return dil(this)" method="Post" action="validate">
+    ID<br><input type="text" name="ID" ><br><br>
+    Password <br> <input type="password" name="Password" >
+    <br><br>
+    <input type="checkbox" name="remember-me" id="remember-me"/> &nbsp; Remember me
+    <button type="submit">login</button>
+    
+</form>
+     
+                
+</body>
+
+
+</html>

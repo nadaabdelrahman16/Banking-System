@@ -1,0 +1,93 @@
+/*
+ Name :Nada Abdelrahman Mabrouk Soukr
+    ID :20170315
+    Group : DS-IS 1
+*/
+/* 
+    Created on : Dec 22, 2020, 11:37:02 PM
+    Author     : Nada Abdelrahman
+*/
+
+            body{
+                background-image: url(bg.jpg);
+                background-size: cover;
+            }
+            table{
+                
+                width: 50%;
+                text-align: center;
+               
+                 margin: 70px auto;
+                 
+            }
+            th {
+                background-color: #006969;
+                color: white;
+                
+  height: 70px;
+}
+tr{
+    
+  height: 70px;
+
+}
+            button{
+             font-size: 20px;
+            
+        }
+        form{
+              margin-left: 650px ;
+              width : 80px ;
+            
+        }
+ input{
+    font-family: segoe ui,open sans,sans-serif,Arial;
+    border: none;
+    /*color: #fff;*/
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+}
+ 
+input[type=submit]{
+    background-color: #006969;
+     font-family: segoe ui,open sans,sans-serif,Arial;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+}
+       #formTransfer{
+    width: 400px;
+    margin-left: 20em;
+    
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 15px 15px;
+  
+}
+#formCancel{
+      width: 400px;
+       margin-right: 20em;
+      
+      
+    
+}
+div{
+   background-color: black;
+}
